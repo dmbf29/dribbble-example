@@ -1,0 +1,79 @@
+.card {
+  background-color: white;
+  padding: 16px;
+  border-radius: 8px;
+  box-shadow: 0 0 4px rgba(0,0,0,0.2);
+}
+
+
+.card-top-left {
+  flex: 1;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+.card-top-right {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.card-top-right h3 {
+  margin: 0;
+}
+
+.card-top-left p {
+  margin: 0;
+}
+
+.stars {
+  text-align: right;
+  padding: 8px;
+}
+
+.card-top{
+  display: flex;
+  gap: 16px;
+}
+
+/* .card-middle-video {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  object-position: center;
+  margin-top: 8px;
+} */
+
+.card-bottom {
+  display: flex;
+  /* justify-content: space-between; */
+  gap: 8px;
+  margin-top: 16px;
+}
+
+.card-bottom-img {
+  width: 50%;
+}
+
+.card-bottom-right img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.card-bottom-right {
+  display: flex;
+  flex-direction: column;
+}
+
+.fa-star {
+  color: #FFB519;
+}
+
+.fa-heart {
+  color:red;
+  position: absolute;
+  top: 8px;
+  right: 8px;
+}
